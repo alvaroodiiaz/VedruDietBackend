@@ -68,7 +68,7 @@ public class Food  implements Serializable{
 		this.id = foodId;
 	}
 
-	@Column(name="nombre", unique=false,nullable=false)
+	@Column(name="foodName", unique=false,nullable=false)
 	public String getFoodName() {
 		return foodName;
 	}
